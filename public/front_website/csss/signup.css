@@ -1,0 +1,163 @@
+.sign-heading{
+    font-size:25px;
+    font-weight:500
+}
+
+.google-icon{
+    width:30px;
+    height:30px !important;
+    cursor: pointer;
+}
+.sign-text{
+    font-size:14px;
+    font-weight:500
+}
+
+.box-bg{
+    background:white;
+    width:55%;
+    margin:auto;
+    border-radius:13px;
+    padding:20px;
+    box-shadow:2px 2px 5px rgb(188, 188, 245);
+    overflow: hidden;
+}
+.flex-bg{
+    background:white;
+    box-shadow:1px 1px 7px rgb(188, 188, 245);
+    padding-top:15px;
+    padding-bottom:15px;
+    width:75%;
+    margin:auto;
+    border-radius:11px;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+
+.hr-lines{
+    position: relative;
+    max-width: 100%;
+   justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .hr-lines:before{
+    content:" ";
+    height: 1px;
+    width: 250px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 1px;
+    width: 250px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    overflow: hidden;
+  }
+  
+  @media only screen and (min-width:320px) and (max-width:767.98px){
+    .hr-lines{
+      position: relative;
+      max-width: 300px;
+      overflow: hidden;
+      text-align: center;
+    }
+    
+    .hr-lines:before{
+      content:" ";
+      height: 1px;
+      width: 95px;
+      background: black;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      overflow: hidden;
+    }
+    
+    .hr-lines:after{
+      content:" ";
+      height: 1px;
+      width: 95px;
+      background: black;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      overflow: hidden;
+    }
+
+    .box-bg{
+        background:white;
+        width:100%;
+        margin:auto;
+        border-radius:13px;
+        padding:20px;
+        box-shadow:2px 2px 5px rgb(188, 188, 245);
+        overflow: hidden;
+    }
+    .flex-bg{
+        background:white;
+        box-shadow:1px 1px 7px rgb(188, 188, 245);
+        padding-top:15px;
+        width:97%;
+        margin:auto;
+        border-radius:11px;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .sign-heading{
+        font-size:18px;
+        font-weight:500
+    }
+    
+  }
+
+  .label-heading{
+    font-size:16px;
+    font-weight:500;
+    color:rgb(63, 62, 62)
+  }
+  .form-holder{
+    border-radius:10px;
+    border:solid 1px rgb(177, 176, 176)
+  }
+  .form-holder::placeholder{
+    font-size:14px;
+    font-weight:500;
+    color:rgb(136, 134, 134)
+  }
+
+  .term-text{
+    font-size:12.5px;
+    font-weight:500
+  }
+
+  .sign-button{
+    background-color:blueviolet;
+    color:white;
+    border:solid 2px blueviolet;
+    font-weight:500
+  }
+
+  .sign-button:hover{
+    background-color:white;
+    color:blueviolet;
+    border:solid 2px blueviolet
+  }
+
+  

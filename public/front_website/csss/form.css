@@ -1,0 +1,70 @@
+.project-fm-bg{
+    background-color: white;
+    padding:15px;
+    width:60%;
+    margin:auto;
+    box-shadow:1px 1px 3px 3px rgb(245, 245, 245);
+
+}
+.pro-label-font{
+    font-size:16px;
+    font-weight:600;
+    letter-spacing: 0.75px;
+}
+.pro-input-box{
+    border-radius: 5px;
+    border:solid 0.70px rgb(224, 224, 224);
+    width:100%;
+    padding:5px;
+}
+.pro-label-font::placeholder{
+    font-size:15px;
+    font-weight:500;
+}
+.bg-body-frm{
+    background-color:rgb(240, 245, 255);
+   padding:15px;
+}
+.sub-project-btn{
+    font-size:16px;
+    font-weight:500;
+    background-color:rgb(1, 120, 150);
+    color:white;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border:solid 2px rgb(1, 120, 150);
+    margin-top:40px;
+    width:100%;
+}
+.pro-form-top{
+    margin-top:110px !important
+}
+.sub-project-btn:hover{
+    font-size:16px;
+    font-weight:500;
+    background-color:white;
+    color:rgb(1, 120, 150);
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border:solid 2px rgb(1, 120, 150);
+    margin-top:40px;
+    width:100%;
+}
+@media only screen and (max-width:767.98px){
+    .project-fm-bg{
+        background-color: white;
+        padding:5px;
+        width:100%;
+        margin:auto;
+        box-shadow:1px 1px 3px 3px rgb(245, 245, 245);
+    
+    }
+    .bg-body-frm{
+        background-color:rgb(240, 245, 255);
+       padding:0px
+    }
+}
